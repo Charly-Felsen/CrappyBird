@@ -112,24 +112,5 @@
       };
       document.body.appendChild(script);
     </script>
-    <script type="text/javascript">
-      function goFullscreen() {
-          var canvas = document.getElementById('unity-canvas');
-          if (canvas.requestFullscreen) {
-              canvas.requestFullscreen();
-          } else if (canvas.mozRequestFullScreen) {
-              canvas.mozRequestFullScreen();
-          } else if (canvas.webkitRequestFullscreen) {
-              canvas.webkitRequestFullscreen();
-          } else if (canvas.msRequestFullscreen) {
-              canvas.msRequestFullscreen();
-          }
-      }
-  
-      // Call this function to start in fullscreen mode
-      function startGameFullscreen() {
-          goFullscreen();
-      }
-  </script>
   </body>
 </html>
